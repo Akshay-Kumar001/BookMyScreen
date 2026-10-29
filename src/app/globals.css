@@ -24,3 +24,40 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+
+/* Movie promotional carousel */
+.movie-banner-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.movie-promo-swiper {
+  width: 100%;
+  overflow: visible !important;
+}
+
+.movie-promo-swiper .swiper-wrapper {
+  align-items: center;
+}
+
+.movie-promo-swiper .swiper-slide {
+  opacity: 0.45;
+  transition: opacity 800ms ease;
+}
+
+.movie-promo-swiper .swiper-slide-active {
+  opacity: 1;
+}
+
+.movie-promo-card {
+  min-height: 380px;
+}
+
+@media (min-width: 768px) {
+  .movie-promo-card {
+    min-height: 480px;
+  }
+}
