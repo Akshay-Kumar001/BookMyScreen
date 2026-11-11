@@ -2,6 +2,8 @@
 import Header from "@/components/layout/Header";
 import HeroBanner from "@/components/home/HeroBanner";
 import MovieSection from "@/components/home/MovieSection";
+import ComingSoonSection from "@/components/home/ComingSoonSection";
+import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
       <Header />
       <HeroBanner />
       <MovieSection />
+      <ComingSoonSection />
+      <Footer />
     </main>
   );
 }
